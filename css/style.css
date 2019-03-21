@@ -1,0 +1,237 @@
+/* Start Golbal */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: regular;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  padding-right:40px;
+  padding-left:40px;
+  border:#DCDCDC ;
+
+}
+
+@font-face {
+  font-family: light;
+  src: url("../fonts/JF Flat light.ttf") format("opentype");
+  src: url("../fonts/JF Flat light.eot") format("opentype");
+  src: url("../fonts/JF Flat light.woff") format("opentype");
+}
+
+@font-face {
+  font-family: regular;
+  src: url("../fonts/JF-Flat-regular.ttf") format("opentype");
+  src: url("../fonts/JF-Flat-regular.eot") format("opentype");
+  src: url("../fonts/JF-Flat-regular.woff") format("opentype");
+}
+
+@font-face {
+  font-family: meduim;
+  src: url("../fonts/JF Flat medium.ttf") format("opentype");
+  src: url("../fonts/JF Flat medium.eot") format("opentype");
+  src: url("../fonts/JF Flat medium.woff") format("opentype");
+}
+
+.title {
+  color: #222;
+  font-size: 25px;
+  font-family: monospace;
+  letter-spacing: 4px;
+  margin-bottom: 40px;
+}
+
+.title span {
+  color: #f9274b;
+  border-bottom: 2px solid #f9274b
+}
+
+/* End Golbal */
+/* Start Main Header */
+.main-header {
+  background: url("../images/11.jpg")no-repeat center center fixed;
+  min-height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+.main-header .overlay {
+  min-height: 100vh;
+  background-color: rgba(0,0,0,0.7)
+}
+
+.main-header .left-logo {
+  float: left;
+}
+
+.main-header .left-logo h2 {
+  color:#FF8C00;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.main-header .right-menu {
+  float: right
+}
+
+.main-header .right-menu ul {
+  list-style-type: none;
+}
+
+.main-header .right-menu ul li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.main-header .right-menu ul li.active a {
+  color: #FF8C00;
+  border-bottom: 3px solid #f9274b
+}
+
+.main-header .right-menu ul li a {
+  color: #FFF;
+  font-size: 18px;
+  text-transform: uppercase;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.main-header .right-menu ul li a:hover {
+  color: #FF8C00;
+  border-bottom: 3px solid #f9274b
+}
+
+.main-header .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  text-align: center;
+  color: #FFF;
+}
+
+
+.main-header .content h1 {
+  color: #FF8C00;
+  font-family: meduim;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+
+}
+
+.main-header .content p {
+  font-family: light;
+  line-height: 25px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+/* End Main Header */
+/* Start Our Features */
+.Important-Links {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.Important-Links .all-link {
+  display: flex;
+}
+
+.Important-Links .all-link .link {
+  flex: 1;
+  margin: 2.5px;
+  border: 1px solid #DDD;
+  padding: 10px;
+}
+
+.Important-Links .all-link .link i {
+  color: #333;
+}
+.Important-Links .all-link .link img {
+	width: 30px;
+	height: 30px;
+}
+
+.Important-Links .all-link .link a {
+	display: block;
+	color: #555;
+  	font-size: 20px;
+  	font-family: monospace;
+}
+.Important-Links .all-link .link a:hover {
+	color: #FF8C00;
+}
+/* End Our Features */
+/* Start Footer */
+.our-footer {
+  padding: 40px 0;
+  text-align: center;
+  background-color: #000;
+}
+
+.our-footer h2 {
+  color:#FF8C00;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.our-footer ul {
+  list-style-type: none;
+}
+
+.our-footer ul li {
+  display: inline;
+  padding: 0 10px;
+}
+
+.our-footer ul li a {
+  color: #696969;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  -moz-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.our-footer ul li a:hover {
+  color: 	#FF8C00
+}
+
+.our-footer ul li a i {
+  font-size: 18px;
+}
+
+.our-footer p {
+  color: #FFF;
+}
+
+.our-footer p a {
+  color: 	#FF8C00;
+  text-transform: uppercase;
+}
+/* End Footer */
